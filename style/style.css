@@ -1,0 +1,84 @@
+html,
+body,
+div,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+form,
+legend,
+label,
+table,
+header,
+footer,
+nav,
+section,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  list-style: none outside none;
+  border: 0 none;
+  outline: 0 none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.yellow {
+  background-color: #ffff75;
+}
+
+.tags {
+  list-style: none;
+  font-size: 22px;
+}
+
+.video-container {
+  height: 45vw;
+}
+
+.video {
+  width: 60vw;
+  height: 30vw;
+}
+
+.heading1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.author {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

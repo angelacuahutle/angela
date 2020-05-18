@@ -1,0 +1,82 @@
+// variables (fonts, colors)
+$noto : 'Noto Sans', sans-serif
+$work : 'Work Sans', sans-serif
+$roboto : 'Archivo Black', sans-serif
+$yellow : rgb(255, 255, 117)
+// basic setup    
+html,
+body,
+div,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+form,
+legend,
+label,
+table,
+header,
+footer,
+nav,
+section,
+figure
+    margin: 0;
+    padding: 0;
+
+html
+    box-sizing: border-box
+
+body
+    font-family: $noto
+
+*,
+*::before,
+*::after
+    box-sizing: inherit
+    list-style: none outside none
+    border: 0 none
+    outline: 0 none
+
+a,
+a:hover
+    text-decoration: none
+    color: inherit
+
+// color classes
+.yellow
+    background-color : $yellow
+
+// properties classes
+.tags
+    list-style: none
+    font-size : 22px
+
+.video-container
+    height : 45vw    // change to 80 in media query
+
+.video 
+    width : 60vw
+    height: 30vw
+
+.heading1
+    font-family : $work
+    font-size : 1.5rem  
+
+.author
+    font-family : $roboto
+    font-weight : bold
+    text-transform : uppercase
+    font-size : 2rem  
+
+
+
+
